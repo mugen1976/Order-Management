@@ -16,7 +16,7 @@ Attribute VB_Exposed = False
 
 Option Explicit
 
-Sub Userform_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+Sub UserForm_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
 'PURPOSE: Reset Userform buttons to Inactive Status
 
 CancelButtonInactive.Visible = True
